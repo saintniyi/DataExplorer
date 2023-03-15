@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DbSharedDataSource</DataSourceReference>
+      <CommandText>SELECT a.ModifiedDate, a.City, s.StateProvinceCode, s.Name AS StateName, c.CountryRegionCode, c.Name AS CountryName
+FROM   AddressTable AS a INNER JOIN
+             StateProvince AS s ON a.StateProvinceID = s.StateProvinceID INNER JOIN
+             CountryRegion AS c ON s.CountryRegionCode = c.CountryRegionCode</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ModifiedDate">
+        <DataField>ModifiedDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="City">
+        <DataField>City</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="StateProvinceCode">
+        <DataField>StateProvinceCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="StateName">
+        <DataField>StateName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CountryRegionCode">
+        <DataField>CountryRegionCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CountryName">
+        <DataField>CountryName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "DataExplorer", "DataExplorer\DataExplorer.rptproj", "{13668901-7F89-41BE-B7AF-B91217793952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13668901-7F89-41BE-B7AF-B91217793952}.Debug|Default.ActiveCfg = Debug
+		{13668901-7F89-41BE-B7AF-B91217793952}.Debug|Default.Build.0 = Debug
+		{13668901-7F89-41BE-B7AF-B91217793952}.Debug|Default.Deploy.0 = Debug
+		{13668901-7F89-41BE-B7AF-B91217793952}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{13668901-7F89-41BE-B7AF-B91217793952}.DebugLocal|Default.Build.0 = DebugLocal
+		{13668901-7F89-41BE-B7AF-B91217793952}.Release|Default.ActiveCfg = Release
+		{13668901-7F89-41BE-B7AF-B91217793952}.Release|Default.Build.0 = Release
+		{13668901-7F89-41BE-B7AF-B91217793952}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95875D99-EBD0-430F-B59A-154713EA8593}
+	EndGlobalSection
+EndGlobal
